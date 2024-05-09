@@ -1,6 +1,6 @@
 [build]
-  command = "npm start"
-  functions = "netlify-functions"
+  command = "echo 'No build step'" 
+  functions = "netlify-functions" 
 
 [[redirects]]
   from = "/*"
